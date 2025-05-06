@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "style-render": "npx @tailwindcss/cli -i ./style/input.css -o ./out/style.css --watch ",
+    "logic-render": "npx babel js/main.js --out-file=out/main.js --presets=env,react --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.5",
+    "babel": "^5.8.38",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^19.1.0",
+    "tailwindcss": "^4.1.5"
+  },
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
